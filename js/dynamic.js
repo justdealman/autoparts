@@ -113,4 +113,9 @@
 		$('.login > ul li:nth-child(2)').addClass('active');
 		$('.login .tab#tab2').fadeIn(0);
 	});
+	$('.newsearch .drop').click(function() {
+		$(this).parents('.default').toggleClass('active');
+		$(this).parents('.default').find('.dropped').slideToggle(150);
+		return false;
+	});
 });
