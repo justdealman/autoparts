@@ -3329,7 +3329,7 @@ button::-moz-focus-inner {
 	background:url('./images/basket_ul.png') repeat-x top;
 }
 .main .searchresult > ul.list > li.green {
-	background:url('./images/green_li.png') repeat-x bottom;
+	background:url('./images/green_li.png') no-repeat center bottom;
 }
 .main .searchresult > ul.list > li:hover {
 	background:url('./images/basket_li.png') no-repeat center top;
@@ -3477,6 +3477,6 @@ button::-moz-focus-inner {
 	width:26px;
 	height:26px;
 	cursor:pointer;
-	margin:-4px 0 0;
+	margin:-4px 0 -2px;
 	background:url('./images/basket_add_2.png') no-repeat left top;
 }
